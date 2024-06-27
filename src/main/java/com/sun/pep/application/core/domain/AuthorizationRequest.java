@@ -1,2 +1,3 @@
-package com.sun.pep.application.core.domain;public record AuthorizationRequest() {
-}
+package com.sun.pep.application.core.domain;
+
+public record AuthorizationRequest(Input input) {}
